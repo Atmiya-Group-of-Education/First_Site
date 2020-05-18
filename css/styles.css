@@ -3,7 +3,7 @@
 }
 
 body{
-    padding: 70px 0px 0px 0px;
+    padding: 150px 0px 0px 0px;
     z-index: 0px;
     background-color: #FAEEFA;
 }
@@ -16,7 +16,7 @@ body{
 
 .row-content{
     margin: 0px auto;
-    padding : 30px 50px 30px 50px;
+    padding : 30px 30px 30px 30px;
     border-bottom: 3px ridge;
     border-color: #560238;
     min-height:350px;
@@ -24,8 +24,8 @@ body{
 
 svg {
     display: block;
-    font: 2em;
-    width: 300px;
+    font: 1.5em;
+    width:280px;
     height: 40px;
     margin: 0 auto;
 }
@@ -83,3 +83,4 @@ svg {
     }
   }
 
+  
