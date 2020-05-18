@@ -1,0 +1,85 @@
+.navbar-dark{
+    background-color: #560238;
+}
+
+body{
+    padding: 70px 0px 0px 0px;
+    z-index: 0px;
+    background-color: #FAEEFA;
+}
+
+.footer{
+    background-color: #D281B5;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.row-content{
+    margin: 0px auto;
+    padding : 30px 50px 30px 50px;
+    border-bottom: 3px ridge;
+    border-color: #560238;
+    min-height:350px;
+}
+
+svg {
+    display: block;
+    font: 2em;
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 5% 25%;
+    stroke-width: 0.8px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 4s infinite linear;
+}
+
+.text-copy:nth-child(1){
+    stroke:whitesmoke;
+    animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+    stroke:whitesmoke;
+    animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+    stroke: whitesmoke;
+    animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+    stroke: rgb(192, 96, 157);
+    animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+    stroke:rgb(177, 62, 62);
+    animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+    100% {stroke-dashoffset: -30%;}
+}
+
+.rotate {
+    animation: rotation 3s infinite linear;
+    z-index: 2;
+
+  } 
+
+@keyframes rotation {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
