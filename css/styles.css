@@ -24,10 +24,10 @@ body{
 
 svg {
     display: block;
-    font: 1.0em;
+    font: 1.8em;
     width:275px;
     height: 40px;
-    margin: 0 auto;
+    margin: 0px;
 }
 
 .text-copy {
