@@ -24,8 +24,8 @@ body{
 
 svg {
     display: block;
-    font: 1.5em;
-    width:280px;
+    font: 1.0em;
+    width:275px;
     height: 40px;
     margin: 0 auto;
 }
@@ -34,7 +34,7 @@ svg {
     fill: none;
     stroke: white;
     stroke-dasharray: 5% 25%;
-    stroke-width: 0.8px;
+    stroke-width: 0.7px;
     stroke-dashoffset: 0%;
     animation: stroke-offset 4s infinite linear;
 }
